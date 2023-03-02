@@ -8,7 +8,8 @@
     "build": "tsc && vite build",
     "preview": "vite preview",
     "server": "json-server --watch ./data/db.json",
-    "test": "NODE_ENV=test jest"
+    "test": "NODE_ENV=test jest",
+    "test:ci": "NODE_ENV=test jest --ci"
   },
   "dependencies": {
     "@chakra-ui/react": "^2.4.6",
